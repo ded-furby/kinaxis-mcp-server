@@ -1,0 +1,20 @@
+{
+  "name": "@federicociro/kinaxis-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP Server for Kinaxis Maestro (RapidResponse) - query, export, import and manage supply chain data via REST & Bulk APIs",
+  "author": "Federico Berrone <federicociro@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "kinaxis-mcp-server": "src/index.js" },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "keywords": ["mcp","kinaxis","maestro","rapidresponse","supply-chain","planning","ai","model-context-protocol"],
+  "repository": { "type": "git", "url": "https://github.com/federicociro/kinaxis-mcp-server.git" }
+}
