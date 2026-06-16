@@ -148,6 +148,8 @@ PRs welcome! Please:
 3. Use [Conventional Commits](https://www.conventionalcommits.org/)
 4. Open a PR
 
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for local setup, commit examples, and release notes guidance.
+
 ## License
 
 [MIT](LICENSE)  Federico Berrone, 2026
