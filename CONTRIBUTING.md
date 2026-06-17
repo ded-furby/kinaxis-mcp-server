@@ -42,6 +42,7 @@ KINAXIS_CLIENT_SECRET=your_oauth2_client_secret
 If you use Basic Auth instead of OAuth2:
 
 ```env
+KINAXIS_BASE_URL=https://your-region.kinaxis.net/YOUR_INSTANCE
 KINAXIS_USERNAME=your_ws_user
 KINAXIS_PASSWORD=your_ws_password
 ```
